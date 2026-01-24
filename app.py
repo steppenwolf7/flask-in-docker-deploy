@@ -9,7 +9,7 @@ def hello():
     <html lang="pl">
     <head>
         <meta charset="UTF-8">
-        <title>Flask w Dockerze</title>
+        <title>Flask in Docker</title>
         <style>
             body {
                 margin: 0;
@@ -26,7 +26,7 @@ def hello():
         </style>
     </head>
     <body>
-        Czyżby to był Flask w Dockerze? 🚀
+        DecOps traning in progres ...
     </body>
     </html>
     """
