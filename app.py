@@ -26,8 +26,8 @@ def hello():
             }
             img {
                 margin-top: 30px;
-                max-width: 80%;
-                max-height: 50vh;
+                max-width: 90%;
+                max-height: 65vh;
                 border-radius: 10px;
                 box-shadow: 0 0 20px rgba(0, 255, 204, 0.5);
             }
@@ -56,10 +56,3 @@ def hello():
     </body>
     </html>
     """
-
-@app.route("/health")
-def health():
-    return {"status": "ok"}
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
