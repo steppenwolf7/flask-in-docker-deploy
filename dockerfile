@@ -9,4 +9,4 @@ COPY app.py .
 COPY static/ ./static/
 EXPOSE 5000
 
-CMD ["python", "app.py"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "4", "app:app"]
