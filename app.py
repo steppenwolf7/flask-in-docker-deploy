@@ -48,10 +48,10 @@ def hello():
         </style>
     </head>
     <body>
-        <div>DecOps traning in progres ...</div>
+        <div>DevOps traning in progres ...</div>
         <img src="/static/diagram.png" alt="Architecture Diagram">
         <a href="https://github.com/steppenwolf7/flask-in-docker-deploy" target="_blank">
-            📦 View on GitHub
+             View on GitHub
         </a>
     </body>
     </html>
